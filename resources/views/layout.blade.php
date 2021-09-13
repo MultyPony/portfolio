@@ -55,5 +55,12 @@
         </div>
     </header>
     @yield('content')
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">© 2021</div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
