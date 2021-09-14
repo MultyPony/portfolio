@@ -40,7 +40,7 @@
 
 
     <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
             <div class="col mb-4 d-flex">
                 @include('components.case-card', [
                     'imgSrc' => 'img/find-logo.png',
