@@ -1,8 +1,8 @@
 <div class="card px-3 py-3">
-    <img src="{{ asset($imgSrc) }}" class="card-img-top" alt="...">
+    <img src="{{ asset($imgSrc) }}" class="card-img-top">
     <div class="card-body">
         <h5 class="card-title">{{ $title }}</h5>
-        <p class="card-text">{{ $text }}</p>
+        <p class="card-text">{!! $text !!}</p>
     </div>
     <div class="card-footer">
         @if (isset($link))

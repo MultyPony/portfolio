@@ -43,17 +43,53 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
             <div class="col mb-4 d-flex">
                 @include('components.case-card', [
+                    'imgSrc' => 'img/find-logo.png',
+                    'title' => 'finddistrict.ru',
+                    'text' => 'Разработал сервис для поиска района города по адресу.',
+                    'link' => 'http://finddistrict.ru/',
+                    'gitHubLink' => 'https://github.com/MultyPony/finddistrict.ru',
+                ])
+            </div>
+            <div class="col mb-4 d-flex">
+                @include('components.case-card', [
                     'imgSrc' => 'img/editus-logo.png',
                     'title' => 'editus.ru',
                     'text' => 'Разработал редактор обложки книги, с помощью которого пользователь может
-                            создать pdf, готовый для печати в типографии.',
+                            создать pdf, готовый для печати в типографии. Добавил виджет СДЭК для выбора пункта выдачи заказа.',
                     'link' => 'https://editus.ru/',
                     'gitHubLink' => 'https://github.com/MultyPony/editus-cover-editor',
                 ])
             </div>
             <div class="col mb-4 d-flex">
                 @include('components.case-card', [
-                    'imgSrc' => 'img/rss-logo.jpg',
+                    'imgSrc' => 'img/novastar-logo.jpg',
+                    'title' => 'nova-cleaning70.ru',
+                    'text' => 'Разработал плагин для WordPress, который добавляет на сайт страницу оформления заказа в 3 шага, калькулятор стоимости заказа и простейшую админ-панель. Адаптировал для мобильных устройств.',
+                    'link' => 'http://i95076by.beget.tech/calc/',
+                    'gitHubLink' => 'https://github.com/MultyPony/nova-step-plugin',
+                ])
+            </div>
+            <div class="col mb-4 d-flex">
+                @include('components.case-card', [
+                    'imgSrc' => 'img/maxxpricelogo.png',
+                    'title' => 'maxxprice.ru',
+                    'text' => "Написал простейший telegram bot, задача которого транслировать своим подписчикам данные, введённые пользователем на сайте.<br><a href='https://t.me/MaxxPriceBot'>@MaxxPriceBot</a> (telegram bot)",
+                    'link' => 'https://maxxprice.herokuapp.com/',
+                    'gitHubLink' => 'https://github.com/MultyPony/maxxprice-ru',
+                ])
+
+            </div>
+            <div class="col mb-4 d-flex">
+                @include('components.case-card', [
+                    'imgSrc' => 'img/ufm-logo.jpg',
+                    'title' => 'ufmgroup.ru',
+                    'text' => 'Починил форму заказа плагина WooCommerce для WordPress. Добавил календарь для выбора количества дней аренды.',
+                    'link' => 'https://ufmgroup.ru/',
+                ])
+            </div>
+            <div class="col mb-4 d-flex">
+                @include('components.case-card', [
+                    'imgSrc' => 'img/coffeeinbox-logo.svg',
                     'title' => 'coffeeinbox.ru',
                     'text' => 'Внес изменения в вёрстку сайта на стеке ASP.NET MVC / Angular SSR. Починил отправку email при оформлении заказа.',
                     'link' => 'http://coffeeinbox.ru/',
@@ -69,52 +105,13 @@
                 ])
             </div>
         </div>
-{{--        <div class="row">--}}
-{{--            <!-- Swiper -->--}}
-{{--            <div class="swiper mySwiper">--}}
-{{--                <div class="swiper-wrapper">--}}
-{{--                    <div class="swiper-slide">--}}
-{{--                        <div class="container">--}}
-{{--                            <div class="row">--}}
-{{--                                <div class="col mb-4 d-flex">--}}
-{{--                                    @include('components.case-card', [--}}
-{{--                                        'imgSrc' => 'img/editus-logo.png',--}}
-{{--                                        'title' => 'editus.ru',--}}
-{{--                                        'text' => 'Разработал редактор обложки книги, с помощью которого пользователь может--}}
-{{--                                                создать pdf, готовый для печати в типографии.',--}}
-{{--                                        'link' => 'https://editus.ru/',--}}
-{{--                                        'gitHubLink' => 'https://github.com/MultyPony/editus-cover-editor',--}}
-{{--                                    ])--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-
-{{--                    </div>--}}
-{{--                    <div class="swiper-slide">Slide 2</div>--}}
-{{--                    <div class="swiper-slide">Slide 3</div>--}}
-{{--                    <div class="swiper-slide">Slide 4</div>--}}
-{{--                    <div class="swiper-slide">Slide 5</div>--}}
-{{--                    <div class="swiper-slide">Slide 6</div>--}}
-{{--                    <div class="swiper-slide">Slide 7</div>--}}
-{{--                    <div class="swiper-slide">Slide 8</div>--}}
-{{--                    <div class="swiper-slide">Slide 9</div>--}}
-{{--                </div>--}}
-{{--                <div class="swiper-pagination"></div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
         <div class="row justify-content-center">
             <div class="col-8">
                 <div class="card">
                     <div class="card-body">
-                        {{--                        <h5 class="card-title">Card title</h5>--}}
-                        {{--                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>--}}
-                        {{--                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>--}}
-                        {{--                        <a href="#" class="card-link">Card link</a>--}}
-                        {{--                        <a href="#" class="card-link">Another link</a>--}}
                         <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="oi4kW6_j" data-limit="5"></script>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
