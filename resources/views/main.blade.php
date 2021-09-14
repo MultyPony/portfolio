@@ -109,7 +109,7 @@
             <div class="col-8">
                 <div class="card">
                     <div class="card-body">
-                        <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="oi4kW6_j" data-limit="5"></script>
+                        <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="c9Sh4K9e" data-limit="5"></script>
                     </div>
                 </div>
             </div>
