@@ -106,7 +106,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-8">
+            <div class="col col-lg-8">
                 <div class="card">
                     <div class="card-body">
                         <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="c9Sh4K9e" data-limit="5"></script>
